@@ -6,7 +6,7 @@ Semantic Clothing
 * [Software Design](https://github.com/danielamariei/semantic-clothing#software-design)
   * [Data Modelling](https://github.com/danielamariei/semantic-clothing#data-modelling)
   * [Software Architecture](https://github.com/danielamariei/semantic-clothing#software-architecture)
-* [REST API](https://github.com/danielamariei/semantic-clothing#rest-api)
+  * [REST API](https://github.com/danielamariei/semantic-clothing#rest-api)
 * [Development & Installation](https://github.com/danielamariei/semantic-clothing#development-&-installation)
 * [Bibliography](https://github.com/danielamariei/semantic-clothing#bibliography)
 
@@ -128,7 +128,7 @@ The system will be structured according to an N-Tier Architecture, according to 
 <img src="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/architecture.png" alt="An image depicting the architecture of the system." />
 
 ### REST API
-http://tinyurl.com/semcloth-raml
+[Towards the Semantic Clothing REST API](http://htmlpreview.github.io/?https://github.com/riquack/semcloth/blob/master/wiki-resources/raml/SemCloth.html)
 
 
 ## Semantic Clothing Ontology
@@ -144,9 +144,6 @@ The _Semantic Clothing Ontology_ is available in the following serialization for
 * [Turtle](https://github.com/riquack/semcloth/blob/amaster/ontology/semantic-clothing.ttl);
 * [Functional Syntax](https://github.com/riquack/semcloth/blob/master/ontology/semantic-clothing.functional.owl);
 * [Manchester Syntax](https://github.com/riquack/semcloth/blob/master/ontology/semantic-clothing.manchester.owl)
-
-## REST API
-[Towards the Semantic Clothing REST API](http://htmlpreview.github.io/?https://github.com/riquack/semcloth/blob/master/wiki-resources/raml/SemCloth.html)
 
 ## Development & Installation
 In order to test the application you need to perform the following steps:
@@ -172,19 +169,11 @@ In order to test the application you need to perform the following steps:
 
 ## Bibliography
 1. ***, Dr. Sabin-Corneliu Buraga, FII, UAIC. _Web Application Development_. http://profs.info.uaic.ro/~busaco/teach/courses/wade/;
-
 2. ***, MKBERGMAN.COM, AI3:::Adaptive Information Adaptive Innovation Adaptive Infrastructure. _A decade in the Trenches of the Semantic Web_. http://www.mkbergman.com/1771/a-decade-in-the-trenches-of-the-semantic-web/;
-
 3. ***, MKBERGMAN.COM, AI3:::Adaptive Information Adaptive Innovation Adaptive Infrastructure. _The Rationale for Semantic Technologies_. http://www.mkbergman.com/1015/the-rationale-for-semantic-technologies/;
-
 4. ***, W3.ORG, Tim Berners-Lee. _Linked Data_. http://www.w3.org/DesignIssues/LinkedData.html;
-
 5. ***, W3.ORG, Guus Scheriber et al. _RDF 1.1 Primer_. http://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/;
-
 6. ***, W3.ORG, Richard Cygniak et al. _RDF 1.1 Concepts and Abstract Syntax_. http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/;
-
 7. ***, W3.ORG, Dan Brickley et al. _RDF Schema 1.1_. http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/;
-
 8. Channu Kambalyal (Prepared By). _3-Tier Architecture_ș
-
 9. ***, LINKEDDATATOOLS.COM. _Introducing Linked Data And The Semantic Web_. http://www.linkeddatatools.com/semantic-web-basics/;
