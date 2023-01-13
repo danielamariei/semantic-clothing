@@ -16,7 +16,12 @@ Semantic Clothing Web Application that enables the selection of different clothi
  [Freebase](https://developers.google.com/freebase/). The application will offer suggestions that take into account the fashion proclivity, the season, or different preferences that the user has. Moreover, the user will be able to receive information regarding the purchasing of different items of interest, taking into account its geographic localization.
 
 ## Demo
-* <a href="">Watch demo</a>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/danielamariei/semantic-clothing/master/demo/semcloth-demo.mp4">
+    <img src="https://raw.githubusercontent.com/danielamariei/semantic-clothing/master/demo/semantic-clothing-demo-thumbnail.png">
+  </a>
+</p>
 
 ## Requirements
 
