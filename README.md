@@ -1,6 +1,15 @@
 Semantic Clothing
 ========
 
+* [Introduction](https://github.com/danielamariei/semantic-clothing#introduction)
+* [Requirements](https://github.com/danielamariei/semantic-clothing#requirements)
+* [Software Design](https://github.com/danielamariei/semantic-clothing#software-design)
+  * [Data Modelling](https://github.com/danielamariei/semantic-clothing#data-modelling)
+  * [Software Architecture](https://github.com/danielamariei/semantic-clothing#software-architecture)
+* [REST API](https://github.com/danielamariei/semantic-clothing#rest-api)
+* [Development & Installation](https://github.com/danielamariei/semantic-clothing#development-&-installation)
+* [Bibliography](https://github.com/danielamariei/semantic-clothing#bibliography)
+
 ## Introduction
 Semantic Clothing Web Application that enables the selection of different clothing items based on the existing wardrobe. Some people have difficulties when choosing the right vestment for a certain type of event (_i.e._, interview, dinner party, show, etc.). The purpose of the project is to create an Web Application that enables the selection of different clothing items based on the existing wardrobe; the information of interest can be obtained from [DBpedia](http://wiki.dbpedia.org/About) or
  [Freebase](https://developers.google.com/freebase/). The application will offer suggestions that take into account the fashion proclivity, the season, or different preferences that the user has. Moreover, the user will be able to receive information regarding the purchasing of different items of interest, taking into account its geographic localization.
@@ -139,7 +148,7 @@ The _Semantic Clothing Ontology_ is available in the following serialization for
 ## REST API
 [Towards the Semantic Clothing REST API](http://htmlpreview.github.io/?https://github.com/riquack/semcloth/blob/master/wiki-resources/raml/SemCloth.html)
 
-
+## Development & Installation
 In order to test the application you need to perform the following steps:
 
 #### Prepare the database ####
