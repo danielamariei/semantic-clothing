@@ -7,7 +7,8 @@ Semantic Clothing
 * [Software Design](https://github.com/danielamariei/semantic-clothing#software-design)
   * [Data Modelling](https://github.com/danielamariei/semantic-clothing#data-modelling)
   * [Software Architecture](https://github.com/danielamariei/semantic-clothing#software-architecture)
-  * [REST API](https://github.com/danielamariei/semantic-clothing#rest-api)
+  * [REST API](https://github.com/danielamariei/semantic-clothing#rest-api)  
+* [Semantic Clothing Ontology](https://github.com/danielamariei/semantic-clothing#semantic-clothing-ontology)
 * [Development & Installation](https://github.com/danielamariei/semantic-clothing#development-&-installation)
 * [Bibliography](https://github.com/danielamariei/semantic-clothing#bibliography)
 
