@@ -52,8 +52,8 @@ In this use-case, the user has to complete the following three steps:
 
 Click on the image to see it at full size.
 
-<a href="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/first-uage-flow.jpg">
-<img src="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/first-uage-flow.jpg" alt="An image depicting the flow the user has to follow when he uses the application for the first time." width="300px" height="450px"/>
+<a href="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/first-uage-flow.jpg">
+<img src="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/first-uage-flow.jpg" alt="An image depicting the flow the user has to follow when he uses the application for the first time." width="300px" height="450px"/>
 </a>
 
 #### Clothing Recommendations
@@ -61,8 +61,8 @@ In this use-case we depict the mode of interaction when the users wants to obtai
 
 Click on the image to see it at full size.
 
-<a href="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/clothing-recommendations.jpg">
-<img src="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/clothing-recommendations.jpg" alt="An image depicting an user interface that displays a list of items." width="300px" height="450px" />
+<a href="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/clothing-recommendations.jpg">
+<img src="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/clothing-recommendations.jpg" alt="An image depicting an user interface that displays a list of items." width="300px" height="450px" />
 </a>
 
 #### Recommendation Details and Wardrobe Configuration
@@ -73,8 +73,8 @@ The second screen presents to the user the possibility to configure his wardrobe
 
 Click on the image to see it at full size.
 
-<a href="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/recommendation-details.jpg">
-<img src="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/recommendation-details.jpg" alt="An image that depicts an user interface that displays a screen with various details regarding an item." width="300px" height="450px" />
+<a href="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/recommendation-details.jpg">
+<img src="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/recommendation-details.jpg" alt="An image that depicts an user interface that displays a screen with various details regarding an item." width="300px" height="450px" />
 </a>
 
 ## Software Design
@@ -88,7 +88,7 @@ The first step in developing the application requires involves defining the data
 
 The first thing that need to be modeled in our application is a _clothing item_. Each clothing item that the users adds to its wardrobe will be represents as an _RDF assertion_ of the form: 
 
-<img src="https://raw.githubusercontent.com/riquack/semcloth/master/wiki-resources/images/clothing-item.png" alt="An image representing the and RDF assertion for a clothing item." />
+<img src="https://raw.githubusercontent.com/danielamariei/semcloth/master/wiki-resources/images/clothing-item.png" alt="An image representing the and RDF assertion for a clothing item." />
 
 Here, **clothing item** is represented by things like: shoes, skirt, shirt, jeans, etc. Each clothing item can have different **characteristics** like: fabrics, color, size, texture, manufacturer, etc. In the end, we have a **value** for each characteristic of the clothing item -- the value can be both literal or resource like: _red_ or _<http://dbpedia.org/resource/Red>_ for the color characteristic, and similar.
 
@@ -96,13 +96,13 @@ Here, **clothing item** is represented by things like: shoes, skirt, shirt, jean
 
 Going a step further, we need to model the wardrobe for a user. In essence, an wardrobe will contain a set of clothing items, which are in fact represented by a set of RDF assertions. As such, an wardrobe will be represented by a _Named RDF Graph_, which will be identified uniquely to correspond to the ID of the user. This will enable us to infer recommendation for a user taking into account only the clothing items relevant to him -- those that constitute his wardrobe. Following, we depict the modelling of the wardrobe:
 
-<img src="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/wardrobe.png" alt="An image depicting the representation of an wardrobe as a Named RDF Graph." />
+<img src="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/wardrobe.png" alt="An image depicting the representation of an wardrobe as a Named RDF Graph." />
 
 **3. All the Wardrobes**
 
 The final step in modelling the data is the conceptual representation of the wardrobes for all the users. Since each user has its wardrobe store in a Named RDF Graph, this naturally leads to the concept of _RDF Dataset_, which is comprised by zero or more Named RDF Graph an at most an unnamed one. As such, and the RDF Dataset will be comprised by all the wardrobes the users of our application have. Following, we depict the modelling of all the wardrobes:
 
-<img src="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/all-the-wardrobes.png" alt="An image depicting the representation of all the wardrobes as an RDF Dataset." />
+<img src="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/all-the-wardrobes.png" alt="An image depicting the representation of all the wardrobes as an RDF Dataset." />
 
 **4. Clothes ontology**
 
@@ -135,10 +135,10 @@ This API will be used to obtain information about nearby store for a particular 
 
 The system will be structured according to an N-Tier Architecture, according to the following graphical representation:
 
-<img src="https://github.com/riquack/semcloth/blob/master/wiki-resources/images/architecture.png" alt="An image depicting the architecture of the system." />
+<img src="https://github.com/danielamariei/semcloth/blob/master/wiki-resources/images/architecture.png" alt="An image depicting the architecture of the system." />
 
 ### REST API
-[Towards the Semantic Clothing REST API](http://htmlpreview.github.io/?https://github.com/riquack/semcloth/blob/master/wiki-resources/raml/SemCloth.html)
+[Towards the Semantic Clothing REST API](http://htmlpreview.github.io/?https://github.com/danielamariei/semcloth/blob/master/wiki-resources/raml/SemCloth.html)
 
 
 ## Semantic Clothing Ontology
@@ -149,11 +149,11 @@ In order to develope the _Ontology_ for our project, we have used various extern
 * [Semantically-Interlinked Online Communities](http://rdfs.org/sioc/spec/) (for the moment just one term).
 
 The _Semantic Clothing Ontology_ is available in the following serialization formats:
-* [OWL/XML](https://github.com/riquack/semcloth/blob/master/ontology/semantic-clothing.owl);
-* [RDF/XML](https://github.com/riquack/semcloth/blob/master/ontology/semantic-clothing.rdf.xml);
-* [Turtle](https://github.com/riquack/semcloth/blob/amaster/ontology/semantic-clothing.ttl);
-* [Functional Syntax](https://github.com/riquack/semcloth/blob/master/ontology/semantic-clothing.functional.owl);
-* [Manchester Syntax](https://github.com/riquack/semcloth/blob/master/ontology/semantic-clothing.manchester.owl)
+* [OWL/XML](https://github.com/danielamariei/semcloth/blob/master/ontology/semantic-clothing.owl);
+* [RDF/XML](https://github.com/danielamariei/semcloth/blob/master/ontology/semantic-clothing.rdf.xml);
+* [Turtle](https://github.com/danielamariei/semcloth/blob/amaster/ontology/semantic-clothing.ttl);
+* [Functional Syntax](https://github.com/danielamariei/semcloth/blob/master/ontology/semantic-clothing.functional.owl);
+* [Manchester Syntax](https://github.com/danielamariei/semcloth/blob/master/ontology/semantic-clothing.manchester.owl)
 
 ## Development & Installation
 In order to test the application you need to perform the following steps:
@@ -161,8 +161,8 @@ In order to test the application you need to perform the following steps:
 #### Prepare the database ####
 1. For more details please consult [the Stardog documentation](http://docs.stardog.com/);
 2. Create a new database and import the following files in a new database:
- 1. The Semantic Clothing Ontology; pick one of the following serialization formats found in [the ontology folder](https://github.com/riquack/semcloth/tree/master/ontology); 
- 2. The **dbpedia-triples.ntriples** file from the [dbpedia resource folder](https://github.com/riquack/semcloth/tree/master/dbpedia-resources).
+ 1. The Semantic Clothing Ontology; pick one of the following serialization formats found in [the ontology folder](https://github.com/danielamariei/semcloth/tree/master/ontology); 
+ 2. The **dbpedia-triples.ntriples** file from the [dbpedia resource folder](https://github.com/danielamariei/semcloth/tree/master/dbpedia-resources).
 3. Make sure you start the database before using the application.
 
 #### Prepare the application ####
